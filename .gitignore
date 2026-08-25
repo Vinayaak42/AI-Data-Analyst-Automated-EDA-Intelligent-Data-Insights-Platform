@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+data/*
+!data/.gitkeep
+
+# Local AI models
+models/*
+!models/.gitkeep
+
+# Large model/cache files
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# Python cache
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp

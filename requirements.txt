@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+plotly
+openpyxl
+xlrd
+pyarrow
+duckdb
+scikit-learn
+statsmodels
+transformers
+torch
+sentencepiece
+accelerate
